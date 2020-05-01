@@ -37,7 +37,9 @@
     "clean": "rimraf dist/",
     "pretest": "eslint .",
     "test": "EG_CONFIG_DIR=test/config EG_DISABLE_CONFIG_WATCH=true mocha --recursive test/*",
-    "dev-test": "EG_CONFIG_DIR=test/config mocha EG_DISABLE_CONFIG_WATCH=true --recursive test/*"
+    "dev-test": "EG_CONFIG_DIR=test/config mocha EG_DISABLE_CONFIG_WATCH=true --recursive test/*",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "bin": {
     "eg": "./bin/index.js"
@@ -75,7 +77,8 @@
     "winston": "2.3.1",
     "yargs": "8.0.2",
     "yeoman-environment": "2.0.0",
-    "yeoman-generator": "1.1.1"
+    "yeoman-generator": "1.1.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -99,5 +102,6 @@
   },
   "yargs": {
     "boolean-negation": false
-  }
+  },
+  "snyk": true
 }
