@@ -12,7 +12,7 @@
     "hapi": "16.x.x",
     "inert": "4.x.x",
     "piloted": "3.x.x",
-    "websocket-stream": "3.x.x",
+    "websocket-stream": "5.2.0",
     "wreck": "12.x.x"
   }
 }
