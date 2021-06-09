@@ -11,6 +11,6 @@
     "end-of-stream": "1.x.x",
     "hapi": "16.x.x",
     "inert": "4.x.x",
-    "websocket-stream": "3.x.x"
+    "websocket-stream": "5.2.0"
   }
 }
