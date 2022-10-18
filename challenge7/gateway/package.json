@@ -60,7 +60,7 @@
     "http-proxy": "1.16.2",
     "js-yaml": "3.8.3",
     "lodash": "4.17.4",
-    "minimatch": "3.0.3",
+    "minimatch": "3.0.5",
     "node-uuid": "1.4.8",
     "oauth2orize": "1.8.0",
     "passport": "0.3.2",
@@ -75,7 +75,7 @@
     "winston": "2.3.1",
     "yargs": "8.0.2",
     "yeoman-environment": "2.0.0",
-    "yeoman-generator": "1.1.1"
+    "yeoman-generator": "5.0.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
