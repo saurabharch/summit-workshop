@@ -69,13 +69,13 @@
     "passport-local": "1.0.0",
     "passport-oauth2-client-password": "0.1.2",
     "redis": "2.7.1",
-    "superagent": "3.5.2",
+    "superagent": "3.6.1",
     "uuid-base62": "0.1.0",
     "vhost": "3.0.2",
     "winston": "2.3.1",
     "yargs": "8.0.2",
-    "yeoman-environment": "2.0.0",
-    "yeoman-generator": "1.1.1"
+    "yeoman-environment": "2.0.4",
+    "yeoman-generator": "2.0.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
